@@ -203,7 +203,7 @@ function App() {
 
           {/* Right */}
           <div className="profile-image">
-            <img src="/Abhi.jpg" alt="Abhimanyu" />
+            <img src="/AbhimanyuSingh.jpg" alt="Abhimanyu" />
           </div>
         </div>
       </section>
