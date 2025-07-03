@@ -333,7 +333,7 @@ function App() {
               <img src="https://img.icons8.com/?size=64&id=3tC9EQumUAuq&format=png" alt="GitHub" /> <span>GitHub</span>
             </a>
 
-            <a href="/Abhimanyu_Singh_Rathore.pdf" download target="_blank" rel="noopener noreferrer" className="contact-btn">
+            <a href="/Abhimanyu_Singh_Rathore.pdf"  download target="_blank" rel="noopener noreferrer" onClick={() => alert("Your resume has downloaded") } className="contact-btn">
               <img src="https://img.icons8.com/?size=80&id=44091&format=png" alt="Resume" /> <span>Resume</span>
             </a>
           </div>
