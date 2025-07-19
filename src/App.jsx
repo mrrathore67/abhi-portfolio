@@ -74,7 +74,7 @@ function App() {
   const projects = [
     {
       title: 'Balaji E-mitra',
-      description: 'A Freelancing project of Govt. servicee.',
+      description: 'A Freelancing project of Govt. services.',
       tech: 'React, Tailwind, Firebase Deploy',
       github: 'https://balaji-emitra.web.app/'
     },
