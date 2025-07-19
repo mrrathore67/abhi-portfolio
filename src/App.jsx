@@ -73,6 +73,12 @@ function App() {
 
   const projects = [
     {
+      title: 'Balaji E-mitra',
+      description: 'A Freelancing project of Govt. servicee.',
+      tech: 'React, Tailwind, Firebase Deploy',
+      github: 'https://balaji-emitra.web.app/'
+    },
+    {
       title: 'Video Streaming App',
       description: 'Full-stack app for video uploads and streaming.',
       tech: 'React, Node.js, MongoDB, JWT',
@@ -347,4 +353,4 @@ function App() {
   )
 }
 
-export default App
+export default App 
