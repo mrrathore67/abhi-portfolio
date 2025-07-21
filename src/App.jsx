@@ -73,6 +73,12 @@ function App() {
 
   const projects = [
     {
+      title: 'Crypto Price Tracker',
+      description: 'A real time crypto dashboard with live prices and 7 days chart.',
+      tech: 'React, Tailwind, Reachts, CoinGecko API',
+      github: 'https://crypto-tracker-zeta-rosy.vercel.app/'
+    },
+    {
       title: 'Balaji E-mitra',
       description: 'A Freelancing project of Govt. services.',
       tech: 'React, Tailwind, Firebase Deploy',
@@ -145,7 +151,7 @@ function App() {
       // Find the last section where scroll position is past its offset
       let current = "about";
       Object.entries(sectionOffsets).forEach(([section, offset]) => {
-        if (scrollY + windowHeight * 0.3 >= offset) { 
+        if (scrollY + windowHeight * 0.3 >= offset) {
           current = section;
         }
       });
@@ -201,8 +207,9 @@ function App() {
             </div>
             <div className="pro-summary">
               <p>
-                A passionate self-taught Front-End Developer. With a strong foundation in <span className="language"> HTML, CSS,
-                  JavaScript, and React.js.</span> My journey started with curiosity and hands-on practice.
+                I build lightning-fast, SEO-optimized, and mobile-friendly websites using <span className="language"> React.js and Tailwind CSS. </span>
+                I help businesses get found online and users stay engaged.
+
               </p>
             </div>
           </div>
@@ -339,7 +346,7 @@ function App() {
               <img src="https://img.icons8.com/?size=64&id=3tC9EQumUAuq&format=png" alt="GitHub" /> <span>GitHub</span>
             </a>
 
-            <a href="/ABHIMANYU_SINGH_RATHORE.pdf"  download target="_blank" rel="noopener noreferrer" onClick={() => alert("Resume has downloaded") } className="contact-btn">
+            <a href="/ABHIMANYU_SINGH_RATHORE.pdf" download target="_blank" rel="noopener noreferrer" onClick={() => alert("Resume has downloaded")} className="contact-btn">
               <img src="https://img.icons8.com/?size=80&id=44091&format=png" alt="Resume" /> <span>Resume</span>
             </a>
           </div>
